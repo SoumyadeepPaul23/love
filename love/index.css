@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Dancing+Script:wght@400;500&family=Montserrat:ital,wght@0,500;0,646;0,900;1,300&family=Ubuntu:wght@300&display=swap');
+html{
+    min-height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:black;
+}
+.back{
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    top: 1%;
+    left: 0;
+    transform: translate(5%,1%);
+    position: absolute;
+    border-radius: 10px;
+}
+.you{
+    overflow: hidden;
+    position: absolute;
+    color: black;
+    margin-top: 350px;
+    margin-left: 330px;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Calligraffitti', cursive;
+}
+
+.girl{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 650px;
+   
+}
+.lo1{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 220px;
+    animation: love 8s ease-in-out infinite;
+    animation-delay: -1s;
+}
+.lo2{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 320px;
+    animation: love 8s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+.lo3{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 460px;
+    animation: love 8s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+.lo4{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 560px;
+    animation: love 8s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.love1{
+    width: 90px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 130px;
+    animation: love 8s ease-in-out infinite;
+    animation-delay: -1.2s;
+}
+.love2{
+    width: 90px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 360px;
+    animation: love 8s ease-in-out infinite;
+    animation-delay: -0.2s;
+}
+.love3{
+    width: 90px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 600px;
+    animation: love 8s ease-in-out infinite;
+    animation-delay: 1.2s;
+}
+@keyframes love {
+    20%, 40%, 60%, 80%, 100%{
+        transform-origin: top center;
+    }
+    20%{
+        transform: rotate(7deg);
+    }
+    40%{
+        transform: rotate(-5deg);
+    }
+    60%{
+        transform: rotate(3deg);
+    }
+    80%{
+        transform: rotate(-2deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+.boy{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 500px;
+    
+}
+.ques{
+    overflow: hidden;
+    position: absolute;
+    color: white;
+    margin-top: 80px;
+    margin-left: 350px;
+    font-size: 80px;
+    font-family: 'Calligraffitti', cursive;
+    visibility: hidden;    
+}
+a{
+    text-decoration: none;
+    color:rgb(45, 241, 45) ;
+}
+.yes{
+    visibility: hidden;
+    position: relative;
+    top: 550px;
+    left: 350px;
+    font-size: 20px;
+    background: transparent;
+    display: inline-block;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border: none;
+    border-radius: 20px;
+    color:rgb(45, 241, 45);
+    box-shadow: 0 0 5px rgb(45, 241, 45),
+                0 0 25px rgb(45, 241, 45),
+                0 0 50px rgb(45, 241, 45),
+                0 0 200px rgb(45, 241, 45);
+}
+.NO{
+    visibility: hidden;
+    position: relative;
+    top: 550px;
+    left: 850px;
+    font-size: 20px;
+    background: transparent;
+    display: inline-block;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border: none;
+    border-radius: 20px;
+    color: red;
+    box-shadow: 0 0 5px #f40303,
+                0 0 25px #f40303,
+                0 0 50px #f40303,
+                0 0 200px #f40303;
+}

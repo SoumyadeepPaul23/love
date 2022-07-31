@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Beloved</title>
+</head>
+<body>
+    <div class="container" onclick="myFunction()">
+        <img class="back" src="back3.jpg" alt="">
+        <p class="you">YOU</p>
+        <img class="girl" src="girl.png" alt="">
+        <img class="lo1" src="lo1.png" alt="">
+        <img class="lo2" src="lo2.png" alt="">
+        <img class="lo3" src="lo3.png" alt="">
+        <img class="lo4" src="lo4.png" alt="">
+        <img class="love1" src="love1.png" alt="">
+        <img class="love2" src="love2.png" alt="">
+        <img class="love3" src="love1.png" alt="">
+        <p class="ques" id="myP">Will You Be Mine?</p>
+        <img class="boy" src="boy1-removebg-preview.png" alt="">
+        <button class="yes" id="y"> <a href="next.html">YES</a> </button>
+        <button class="NO" id="no" onmouseenter="myOverFunction()">NO</button>
+    </div>
+    <script>
+        function myFunction() {
+  document.getElementById("myP").style.visibility = "visible";
+  document.getElementById("y").style.visibility = "visible";
+  document.getElementById("no").style.visibility = "visible";
+}
+function myOverFunction(){
+    var top1 = Math.floor(Math.random()*500);
+    var left1 = Math.floor(Math.random()*1000);
+    var top2 = top1+"px";
+    var left2 = left1+"px";
+    document.getElementById("no").style.top=top2;
+    document.getElementById("no").style.left=left2;
+}
+    </script>
+</body>
+</html>
